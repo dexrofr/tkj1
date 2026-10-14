@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya - Beranda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <img class="school-logo" src="logosekolah.jpg" alt="Logo SMKN 1 Rengasdengklok">
+        <div class="header-copy">
+            <h1>Website Profil Saya</h1>
+            <p>Belajar Pemrograman Web Dasar</p>
+        </div>
+        <span class="header-spacer" aria-hidden="true"></span>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="about.html">Profil</a> |
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <div class="content home-layout">
+        <section class="card home-welcome">
+            <h2 class="section-title">Selamat Datang</h2>
+            <p>Kenali lebih dekat pembuat dan anggota kelompok kami melalui website ini. Jelajahi profil atau kirim pesan kepada kami.</p>
+            <button class="greeting-button" onclick="sapa()">Klik Saya <span aria-hidden="true">&rarr;</span></button>
+        </section>
+
+        <section class="card social-panel">
+            <h2 class="section-title">Terhubung dengan Pembuat</h2>
+            <p>Temukan pembuat website ini di media sosial.</p>
+            <div class="social-grid">
+                <a class="social-item" href="https://www.instagram.com/dexrofr/" target="_blank" rel="noopener noreferrer">
+                    <span class="social-platform">Instagram</span>
+                    <span class="social-handle">@dexrofr</span>
+                </a>
+                <a class="social-item" href="https://www.tiktok.com/@dexrofr" target="_blank" rel="noopener noreferrer">
+                    <span class="social-platform">TikTok</span>
+                    <span class="social-handle">@dexrofr</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="card feeling-card">
+            <h2 class="section-title">Komentar Grup</h2>
+            <table class="feeling-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Anggota</th>
+                        <th scope="col">Komentar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Anggota 1</td>
+                        <td>My Destiny</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>  
+
+    <footer>
+        &copy; 2026 Website Saya
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
